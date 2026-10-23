@@ -12,4 +12,9 @@ public class RechercherVehicule {
         }
         return null;
     }
+
+    // Compte les véhicules d'une marque
+    public static long compterParMarque(List<Vehicule> parc, String marque) {
+        return parc.stream().filter(v -> v.getMarque().equals(marque)).count();
+    }
 }
