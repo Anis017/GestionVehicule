@@ -3,3 +3,4 @@ out/
 # Fichiers des éditeurs
 .idea/
 .vscode/
+*.env
