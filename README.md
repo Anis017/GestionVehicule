@@ -5,3 +5,4 @@ Auteurs : vous et votre binôme
 ## Après le clone
 
     git config core.hooksPath .githooks
+Recherche par immatriculation (en cours)
