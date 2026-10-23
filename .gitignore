@@ -1,6 +1,20 @@
-# Classes compilées par javac
+# Classes compilees par javac
 out/
-# Fichiers des éditeurs
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Fichiers des editeurs
 .idea/
 .vscode/
+.settings/
+
+# Fichiers d'environnement
 *.env
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
