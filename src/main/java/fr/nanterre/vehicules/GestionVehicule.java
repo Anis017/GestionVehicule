@@ -12,7 +12,7 @@ public class GestionVehicule {
         AjoutVehicule.ajouter(parc, new Vehicule("AB-123-CD", "Renault", "Clio", 2021));
         AjoutVehicule.ajouter(parc, new Vehicule("EF-456-GH", "Peugeot", "208", 2019));
         AjoutVehicule.ajouter(parc, new Vehicule("IJ-789-KL", "Tesla", "Model 3", 2023));
-
+        AjoutVehicule.ajouter(parc, new Vehicule("MN-012-OP", "Citroën", "C3", 2020));
         System.out.println("Ajout d'un doublon : "
                 + AjoutVehicule.ajouter(parc, new Vehicule("AB-123-CD", "Dacia", "Sandero", 2020)));
         System.out.println("Modification EF-456-GH : "
