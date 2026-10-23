@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GestionVehicule {
-    static final String VERSION = "0.2.0";
+    static final String VERSION = "0.3.0";
 
     public static void main(String[] args) {
         System.out.println("Gestion de véhicules - v" + VERSION);
@@ -15,6 +15,8 @@ public class GestionVehicule {
 
         System.out.println("Ajout d'un doublon : "
                 + AjoutVehicule.ajouter(parc, new Vehicule("AB-123-CD", "Dacia", "Sandero", 2020)));
+        System.out.println("Modification EF-456-GH : "
+                + ModifierVehicule.modifier(parc, "EF-456-GH", "Peugeot", "308", 2022));
 
         afficher(parc);
     }
