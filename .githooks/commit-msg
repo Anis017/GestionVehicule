@@ -1,0 +1,6 @@
+#!/bin/sh
+# Refuse les messages qui ne suivent pas « type: description »
+if ! grep -qE '^((feat|fix|test|docs|chore|refactor): .+|Merge .+|Revert .+)' "$1"; then
+  echo "Message refusé : utilisez « type: description » (feat, fix, test, docs, chore, refactor)."
+  exit 1
+fi

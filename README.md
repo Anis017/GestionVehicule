@@ -1,3 +1,7 @@
 # GestionVehicule
 Programme Java en console qui gère un parc de véhicules.
 Auteurs : vous et votre binôme
+
+## Après le clone
+
+    git config core.hooksPath .githooks

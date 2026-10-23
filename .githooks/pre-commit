@@ -1,0 +1,7 @@
+#!/bin/sh
+# Lance les tests avant chaque commit ; un test rouge bloque le commit
+echo "pre-commit : lancement des tests…"
+if ! ./test.sh > /dev/null; then
+  echo "Tests en échec : commit refusé."
+  exit 1
+fi
