@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GestionVehicule {
-    static final String VERSION = "0.6.0";
+    static final String VERSION = "0.7.0";
 
     public static void main(String[] args) {
         System.out.println("Gestion de véhicules - Parc de Nanterre (stable) - v" + VERSION);
