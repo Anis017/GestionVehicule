@@ -7,7 +7,7 @@ public class AjoutVehicule {
     // renvoie true si l'ajout a eu lieu, false si c'est un doublon
     public static boolean ajouter(List<Vehicule> parc, Vehicule nouveau) {
         for (Vehicule v : parc) {
-            if (v.getImmatriculation().equals(nouveau.getImmatriculation())) {
+            if (v.getImmatriculation().equalsIgnoreCase(nouveau.getImmatriculation())) {
                 return false;
             }
         }
