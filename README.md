@@ -6,3 +6,7 @@ Auteurs : vous et votre binôme
 
     git config core.hooksPath .githooks
 Recherche par immatriculation (en cours)
+
+## Compiler
+
+    javac -d out $(find src/main -name "*.java")
