@@ -7,7 +7,7 @@ public class GestionVehicule {
     static final String VERSION = "0.4.0";
 
     public static void main(String[] args) {
-        System.out.println("Gestion de véhicules - VERSION CASSÉE - v" + VERSION);
+        System.out.println("Gestion de véhicules - v" + VERSION);
         List<Vehicule> parc = new ArrayList<>();
         AjoutVehicule.ajouter(parc, new Vehicule("AB-123-CD", "Renault", "Clio", 2021));
         AjoutVehicule.ajouter(parc, new Vehicule("EF-456-GH", "Peugeot", "208", 2019));
