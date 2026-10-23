@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GestionVehicule {
-    static final String VERSION = "0.3.0";
+    static final String VERSION = "0.4.0";
 
     public static void main(String[] args) {
         System.out.println("Gestion de véhicules - v" + VERSION);
