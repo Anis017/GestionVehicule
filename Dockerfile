@@ -12,4 +12,4 @@ WORKDIR /app
 
 COPY --from=compilation /app/out /app/out
 
-ENTRYPOINT ["java", "-cp", "/app/out", "fr.nanterre.vehicules.GestionVehicule"]
+ENTRYPOINT ["java", "-cp", "/app/out", "fr.nanterre.vehicules.GestionVehiculeInconnue"]
