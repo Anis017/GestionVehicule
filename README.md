@@ -11,3 +11,8 @@ Vous et votre binôme.
 ```bash
 git config core.hooksPath .githooks
 
+## Exécution avec Docker
+
+### 1. Construction de l'image
+```bash
+docker build -t gestionvehicule:tp-docker .

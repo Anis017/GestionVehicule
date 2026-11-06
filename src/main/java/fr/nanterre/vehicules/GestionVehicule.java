@@ -7,7 +7,7 @@ public class GestionVehicule {
     static final String VERSION = "0.7.1";
 
     public static void main(String[] args) {
-        System.out.println("Gestion de véhicules - Parc de Nanterre (stable) - v" + VERSION);
+        System.out.println("Gestion de véhicules - Parc de Nanterre (stable) - v0.7.2");        
         List<Vehicule> parc = new ArrayList<>();
         AjoutVehicule.ajouter(parc, new Vehicule("AB-123-CD", "Renault", "Clio", 2021));
         AjoutVehicule.ajouter(parc, new Vehicule("EF-456-GH", "Peugeot", "208", 2019));
